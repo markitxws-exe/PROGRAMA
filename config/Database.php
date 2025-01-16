@@ -12,17 +12,17 @@
         /**
          * @var string $db Nombre de la base de datos.
          */
-        private $db = "lisi4151_torneos";
+        private $db = "lisi4132_torneos";
 
         /**
          * @var string $user Nombre de usuario para la base de datos.
          */
-        private $user = "lisi4151";
+        private $user = "lisi4132";
 
         /**
          * @var string $password Contraseña del usuario de la base de datos.
          */
-        private $password = "lisi4151";
+        private $password = "lisi4132";
 
         /**
          * Constructor de la clase DataBase.

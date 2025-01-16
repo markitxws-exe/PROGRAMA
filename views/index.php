@@ -1,9 +1,13 @@
 <?php
+session_start();
+
 require_once("admin/template/header.php");
 ?>
 
 <!-- Estilos personalizados para el tema oscuro y la imagen de fondo -->
 <style>
+
+    
     body {
         background-image: url('../views/img/FONDO.jpg'); /* Imagen de fondo */
         background-size: cover;
@@ -100,7 +104,7 @@ require_once("admin/template/header.php");
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Iniciar Sesión</a>
+                    <a class="nav-link" href="admin/frmInicioSesion.php">Iniciar Sesión</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Cerrar Sesión</a>
